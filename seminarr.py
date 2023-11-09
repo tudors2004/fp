@@ -7,7 +7,7 @@ if numarul.isdigit():
         print("pune nr mai mare egal cu 0")
         quit()
 else:
-    print("esti prst scrie un nr")
+    print("scrie un nr")
     quit()
 
 numar_random = random.randint(0, numarul)
@@ -23,7 +23,7 @@ while True:
         continue
 
  if user == numar_random:
-            print("bravooooooooooooooooooooo")
+            print("bravo")
             break
  elif user > numar_random:
             print ("numaru e mai mic")
